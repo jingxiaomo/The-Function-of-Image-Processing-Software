@@ -18,8 +18,8 @@ void OpenVideo(string s) {
 	while (1)
 	{
 		cap >> frame;//等价于cap.read(frame);
-		//if (frame.empty())//如果某帧为空则退出循环
-			//break;
+		if (frame.empty())//如果某帧为空则退出循环
+			break;
 		imshow(s, frame);
 		waitKey(20);//每帧延时20毫秒
 	}
