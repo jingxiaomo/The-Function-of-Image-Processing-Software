@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RotateDll</name>
+    </assembly>
+    <members>
+        <member name="T:RotateDll.Rotate">
+            <summary>
+            旋转
+            </summary>
+        </member>
+        <member name="M:RotateDll.Rotate.Rot90(OpenCvSharp.Mat)">
+            <summary>
+            顺时针90度
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <returns>新图像矩阵</returns>
+        </member>
+        <member name="M:RotateDll.Rotate.Rot180(OpenCvSharp.Mat)">
+            <summary>
+            顺时针180度
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <returns>新图像矩阵</returns>
+        </member>
+        <member name="M:RotateDll.Rotate.Rot270(OpenCvSharp.Mat)">
+            <summary>
+            顺时针270度
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <returns>新图像矩阵</returns>
+        </member>
+        <member name="M:RotateDll.Rotate.ImgRotate(OpenCvSharp.Mat,System.Double,System.Boolean)">
+            <summary>
+            任意角度旋转
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <param name="angle">角度</param>
+            <param name="direction">顺时针或逆时针(true表示逆时针)</param>
+            <returns>新图像矩阵</returns>
+        </member>
+        <member name="M:RotateDll.Rotate.HoriRot(OpenCvSharp.Mat)">
+            <summary>
+            水平翻转
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <returns>新图像矩阵</returns>
+        </member>
+        <member name="M:RotateDll.Rotate.VertRot(OpenCvSharp.Mat)">
+            <summary>
+            垂直翻转
+            </summary>
+            <param name="matSrc">原图像矩阵</param>
+            <returns>新图像矩阵</returns>
+        </member>
+    </members>
+</doc>
