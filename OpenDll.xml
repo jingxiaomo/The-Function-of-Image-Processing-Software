@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenDll</name>
+    </assembly>
+    <members>
+        <member name="T:OpenDll.Class1">
+            <summary>
+            打开图片 打开视频 保存图片！！
+            </summary>
+        </member>
+        <member name="M:OpenDll.Class1.OpenImage(System.String)">
+            <summary>
+            打开图片
+            </summary>
+            <param name="s">图片路径</param>
+            <returns>图像矩阵</returns>
+        </member>
+        <member name="M:OpenDll.Class1.OpenVideo(System.String)">
+            <summary>
+            打开视频
+            </summary>
+            <param name="s">视频路径</param>
+        </member>
+        <member name="M:OpenDll.Class1.SaveImage(System.String,OpenCvSharp.Mat)">
+            <summary>
+            保存图片
+            </summary>
+            <param name="s">图片保存路径</param>
+            <param name="image">图像矩阵</param>
+        </member>
+    </members>
+</doc>
